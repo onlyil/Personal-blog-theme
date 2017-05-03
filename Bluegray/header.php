@@ -56,7 +56,7 @@
                         <li><a href="https://github.com/LifeMuze" target="_blank"><i class="fa fa-github"></i></a></li>
                         <li class="query">
                             <a href="javascript:void(0)" title="搜索"><i class="fa fa-search"></i></a>
-                        </li>>
+                        </li>
                     </ul>
             </div>
         </div>
