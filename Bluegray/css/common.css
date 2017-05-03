@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-13 10:32:12
+ * @version $Id$
+ */
+/*初始化*/
+html{font-size-adjust: none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+body{box-sizing: border-box; background-color: #f3f3f3;overflow-x: hidden; font: 14px Arial,"微软雅黑"; color: #666;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
+table{border-collapse:collapse;border-spacing:0}
+audio,canvas,video { display: inline-block;*display: inline;*zoom: 1;}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+a{text-decoration: none; color: #333;}
+a:hover{color: #6964ad;}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%; outline: none;}
+.fl{float: left;}
+.fr{float: right;}
+body,a,ul,li,i,img,h1,p,article,header,.trans,.article-title,.gotop,.search,input{transition: ease-in-out .5s;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.scale{transform: scale(0); opacity: 0;}

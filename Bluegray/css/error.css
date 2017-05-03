@@ -1,0 +1,33 @@
+
+body, div {
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    background: url("../images/error_bg.jpg") repeat-x scroll 0 0 #67ACE4;
+}
+#container {
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    width: 560px;
+}
+#container img {
+    border: medium none;
+    margin-bottom: 50px;
+}
+#container img.home{z-index: 999;}
+
+
+}
+#container .msg {
+    margin-bottom: 65px;
+}
+
+#cloud {
+    background: url("../images/error_cloud.png") repeat-x scroll 0 0 transparent;
+    bottom: 0;
+    height: 170px;
+    position: absolute;
+    width: 100%;
+}
