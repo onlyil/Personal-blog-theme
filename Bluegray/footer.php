@@ -26,3 +26,4 @@
     <!-- footer结束 -->
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/index.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/bannercanvas.js"></script>

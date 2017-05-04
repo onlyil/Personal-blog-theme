@@ -37,6 +37,7 @@
 
     <!-- main开始 -->
     <div class="main">
+        <canvas id="canvas"></canvas>
         <section class="news">
             <section class="article-title scale">
                 <h2>最新文章</h2>
