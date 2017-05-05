@@ -14,7 +14,7 @@ header.fixed{position: fixed; left: 0; top: -80px;}
 .head{width: 85%; height: 40px; margin: 0 auto;}
 .head strong{position: relative; width: 15%; height: 40px; font-size: 30px; line-height: 40px; font-weight: bold; text-align: center;}
 .head strong a{position: relative; display: block; width: 100%; height: 100%; color: #fff;}
-.head strong a img{position: absolute; left: 0; top: -15px; width: 180px; height: 70px;}
+.head strong a img{position: absolute; left: 0; top: -18px; width: 121px; height: 75px;}
 .head nav{width: 50%; height: 40px;}
 nav .menu-mainnav-container{width: 100%; height: 100%;}
 nav .menu-mainnav-container ul.menu{width: 100%; height: 100%; font-size: 16px;}
@@ -92,7 +92,7 @@ section .more a:hover{color: #6964ad;}
 }
 .main .article-list article a{display: block; width: 100%; height: 60%; overflow: hidden;}
 .main .article-list article a img{width: 100%; height: 100%;}
-.main .article-list article .con{width: 100%; height: 40%; padding: 10px; box-sizing: border-box;}
+.main .article-list article .con{width: 100%; height: 40%; padding: 10px; box-sizing: border-box; border-top: 1px solid #eee;}
 .main .article-list article .con h3{width: 100%; height: 30px; }
 .main .article-list article .con h3 a{font-size: 18px; line-height: 30px; display: inline; color: #333;}
 .main .article-list article .con h3 a:hover{color: #6964ad;}

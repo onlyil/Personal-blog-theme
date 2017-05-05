@@ -33,7 +33,7 @@
     <div class="header">
     <header>
         <div class="head">
-            <strong class="fl"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" width="197" height="78"></a></strong>
+            <strong class="fl"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" width="121" height="75" alt="木泽个人博客"></a></strong>
             <nav class="fl">
                 <?php wp_nav_menu( array( 'theme_location' => 'MainNav' ) ); ?>
             </nav>
