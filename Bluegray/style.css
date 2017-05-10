@@ -69,7 +69,8 @@ article.content .show .trans .animation{width: 40px; height: 40px; transform-sty
 section.banner .sym{width: 100%; height: 80px; background: #6964ad; z-index: 1;}
 
 /*main*/
-.main{position: relative; width: 1200px; margin: 0 auto 60px;}
+#main{position: relative; width: 100%;}
+.main{ width: 1200px; margin: 0 auto 60px;}
 #canvas{position: absolute; left: 0; top: 0; height: 100%;}
 /*news*/
 section.news{width: 100%;}
@@ -153,7 +154,7 @@ footer .copy p.copyr{width: 300px; text-align: right;}
 .category-article .wp-pagenavi a{display: inline-block; width: 40px; height: 100%; color: #6964ad; background: #fff; text-align: center; margin: 0 5px;}
 .category-article .wp-pagenavi a:hover{color: #fff; background: #4c9ed9;}
 /*sidebar*/
-aside{ width: 25%; height: auto;}
+aside{ width: 25%; height: auto; transform: translateX(30px); opacity: 0;}
 aside>div{padding: 5px 10px; box-shadow: 3px 2px 5px #999; background: #fff;}
 aside .news{height: 400px; margin: 15px 30px 15px 15px;}
 aside h3{width: 100%; height: 49px; color: #333; font-size: 18px; line-height: 49px; text-indent: 20px; border-bottom: 1px solid #e4e4e4;}
@@ -181,7 +182,7 @@ aside .tags a:hover{background: #6964ad; color: #fff; border: 1px solid #6964ad;
 
 /*single开始*/
 .single-main{width: 1200px; margin: 15px auto 60px;}
-.single-main .single-article{width: 75%;}
+.single-main .single-article{width: 75%; transform: translateX(-30px); opacity: 0;}
 .single-main .single-article article{margin: 15px 15px 15px 30px; padding: 10px; background: #fff; box-shadow: 3px 2px 5px #999;}
 #crumbs{width: 100%; height: 20px; line-height: 20px; color: #999;}
 .single-article article .header{width: 100%; height: 80px; border-bottom: 1px solid #ccc;}

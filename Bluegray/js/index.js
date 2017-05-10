@@ -152,8 +152,6 @@ function getTopHeight(obj){
     return h;
 }
 
-
-
 //transition
 //scale
 function scale(obj){
@@ -170,9 +168,6 @@ function translateY(obj){
     obj.css('transform','translateY(0)');
     obj.css('opacity','1');
 }
-
-
-
 
 
 //gotop
@@ -259,6 +254,13 @@ $('aside .news ul li').hover(function(){
     $(this).css('text-indent','0');
 });
 
+
+
+//single
+$(document).ready(function(){
+    translateX($('.single-main .single-article'));
+    translateX($('aside'));
+});
 
 
 //评论头像

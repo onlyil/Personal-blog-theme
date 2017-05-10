@@ -26,7 +26,7 @@ input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
 input,textarea,select{*font-size:100%; outline: none;}
 .fl{float: left;}
 .fr{float: right;}
-body,a,ul,li,i,img,h1,p,article,header,.trans,.article-title,.gotop,.search,input{transition: ease-in-out .5s;}
+body,a,ul,li,i,img,h1,p,article,header,.trans,.article-title,.gotop,.search,input,aside,.single-article{transition: ease-in-out .5s;}
 .clearfix:after{content:"";display:block;clear:both;}
 .clearfix{zoom:1;}
 .scale{transform: scale(0); opacity: 0;}

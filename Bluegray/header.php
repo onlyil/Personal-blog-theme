@@ -7,7 +7,7 @@
 <meta name="contact" content="life@muzerblog.com">
 <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=no">
 <meta name="description" content="木泽个人博客,前端笔记与案例展示,学习和交流!">
-<meta name="keywords" content="木泽个人博客,muze,muzeblog,html5,html,css3,css,JavaScript,jquery,web前端,web前端博客">
+<meta name="keywords" content="木泽,木泽个人博客,muze,muzeblog,html5,html,css3,css,JavaScript,jquery,web前端,web前端博客">
 <title><?php if ( is_home() ) {
         bloginfo('name'); echo " - Web前端笔记";
     } elseif ( is_category() ) {
