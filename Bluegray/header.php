@@ -26,6 +26,7 @@
 <link href="<?php bloginfo('template_url'); ?>/css/common.css" rel="stylesheet">
 <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
 <link href="<?php bloginfo('template_url'); ?>/css/codecolorer.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <?php flush(); ?>
 <body>
