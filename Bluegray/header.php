@@ -41,7 +41,7 @@
             <div class="contact fr">
                     <div class="search">
                         <form role="search" method="get" id="searchform" class="searchform" action="<?php echo home_url( '/' ); ?>">
-                            <input class="fl" type="text" name="s" id="s" value="输入内容进行搜索">
+                            <input class="fl" type="text" name="s" id="s" placeholder="输入内容进行搜索">
                             <input type="submit"  id="searchsubmit" value="搜索">
                         </form>
                         <a class="down" href="javascript:void(0)"><i class="fa fa-arrow-down"></i></a>

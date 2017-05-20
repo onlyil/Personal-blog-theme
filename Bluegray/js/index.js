@@ -5,6 +5,7 @@
  * @version $Id$
  */
 
+
 $(document).ready(function(){
     $('body').css('opacity','1');
 });
@@ -60,20 +61,6 @@ $(window).resize(function(){
     $('.head .contact ul li.wechat img').css('left',left + 'px');
 });
 
-//search
-var searchVal = $('.head .contact .search input').val();
-$('.head .contact .search input').focus(function(){
-    if($(this).val() == searchVal){
-        $(this).val('');
-        $(this).css('color','#333');
-    }
-});
-$('.head .contact .search input').blur(function(){
-    if($(this).val() == ""){
-        $(this).val(searchVal);
-        $(this).css('color','#999');
-    }
-});
 
 //search翻转
 $('.head .contact ul li.query').click(function(){
@@ -275,3 +262,5 @@ $('.commentlist .comment').hover(function(){
     $(this).find('.gravatar img').css('transform','rotateZ(0deg)');
     $(this).find('.gravatar img').css('border-radius','0');
 });
+
+
