@@ -1,4 +1,4 @@
-<aside class="fr">
+<aside class="fr cl-md-hide cl-sm-hide">
     <div class="news">
         <h3>最新文章</h3>
         <ul>
@@ -17,7 +17,7 @@
     <div class="tags">
         <h3>标签云</h3>
         <div class="item">
-            <?php wp_tag_cloud('number=20&orderby=count&order=DESC&smallest=12&largest=16&unit=px'); ?>
+            <?php wp_tag_cloud('number=20&orderby=count&order=RAND&smallest=14&largest=20&unit=px'); ?>
         </div>
     </div>
 </aside>

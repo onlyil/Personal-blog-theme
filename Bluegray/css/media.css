@@ -1,0 +1,280 @@
+@media screen and (min-width: 1024px) {
+    .cl-lg-hide {
+        display: none !important;
+    }
+    .head .contact .search {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transform-origin: 50% 50% -20px;
+        -moz-transform-origin: 50% 50% -20px;
+        -ms-transform-origin: 50% 50% -20px;
+        transform-origin: 50% 50% -20px;
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+    }
+    .head .contact .searchform {
+        width: 210px;
+    }
+    .head .contact input#s,
+    .head .contact input#searchsubmit {
+        margin-top: 7px;
+    }
+    article.content {
+        height: 350px;
+    }
+    article.content .show,
+    article.content .show h1 {
+        width: 800px;
+    }
+    .banner .content .show p {
+        opacity: 0;
+    }
+    #cube div {
+        border-color: #666;
+    }
+    .category-main .category-article,
+    .single-main .single-article {
+        float: left;
+        width: 75%;
+    }
+    .category-main  .article-list {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}
+
+
+
+@media screen and (max-width: 1023px) {
+    .cl-md-hide {
+        display: none !important;
+    }
+    .backdrop {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0,0,0,.6);
+        z-index: 9;
+    }
+    .header-container {
+        height: 60px;
+    }
+    .header-container .head {
+        height: 60px;
+        padding: 15px;
+    }
+    .header-container .menu-icon {
+        margin: -15px 0 -10px -15px;
+        padding: 15px;
+    }
+    .header-container .menu-icon:hover {
+        background: rgba(0,0,0,.3);
+    }
+    .header-container .menu-icon p{
+        width: 45px;
+        height: 30px;
+        border-top: 18px double #fff;
+        border-bottom: 6px solid #fff;
+    }
+    .header-container .head .contact {
+        margin-top: 0;
+    }
+    .head .contact .search {
+        transform: rotateX(0deg) !important;
+    }
+    .header-container .head .contact input#s {
+        width: 160px;
+        height: 30px;
+        text-indent: 25px;
+    }
+    .contact .searchform .search-icon {
+        position: absolute;
+        left: 6px;
+        top: 8px;
+        color: #ccc;
+    }
+    .header-container .head h1 {
+        height: 30px;
+        line-height: 30px;
+        font-size: 30px;
+        color: #fff;
+        text-indent: 15px;
+    }
+    .side-nav {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        z-index: 10;
+    }
+    .side-nav.show {
+        left: 0;
+    }
+    .side-nav .bg {
+        height: 100%;
+        background: rgba(2, 130, 189,.9);
+    }
+    .side-nav-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .side-nav-content strong {
+        display: block;
+        padding-left: 20px;
+        margin: 20px 0;
+    }
+    .side-nav ul.menu>li {
+
+    }
+    .side-nav ul.menu>li>a {
+        display: block;
+        padding: 10px 0 10px 20px;
+        line-height: 30px;
+    }
+    .side-nav ul.menu>li a:hover {
+        background: rgba(0,0,0,.3);
+    }
+    .side-nav ul.sub-menu {
+        display: none;
+    }
+    .pd-banner {
+        min-height: 480px;
+        height: 60vh;
+        max-height: 560px;
+        margin-top: -60px;
+        background: linear-gradient(0deg,#039BE5 0%,#0277bd 90%);
+        transform: skewY(-5deg);
+    }
+    .pd-banner article.content .show {
+        padding-top: 160px;
+    }
+    .pd-banner article.content .show h1,
+    .pd-banner article.content .show p,
+    .pd-banner article.content .show .trans {
+        position: static;
+        color: #fff;
+    }
+    .pd-banner article.content .show h1 {
+        font-size: 38px;
+    }
+    .pd-banner article.content .show p {
+        width: auto;
+        font-size: 22px;
+    }
+    .pd-banner article.content .show .trans {
+        margin: 50px auto;
+        -webkit-transition-delay: .5s;
+        -moz-transition-delay: .5s;
+        transition-delay: .5s;
+    }
+    .main .article-list {
+        padding: 0 20px;
+    }
+    .main .article-list article {
+        width: calc(100%/2 - 40px);
+        margin: 20px;
+    }
+    .gotop {
+        bottom: 5px;
+    }
+    .category-main .article-list {
+        padding: 0 15px;
+    }
+    .category-main .article-list article {
+        width: calc(100%/2 - 30px);
+        height: 410px;
+        margin: 0 15px 15px;
+    }
+    .single-main .single-article {
+        padding: 0 30px;
+    }
+    .single-main .single-article article,
+    .single-article .comments {
+        margin-right: 0;
+    }
+    .category-article .article-list article .con p.time+p {
+        height: 80px;
+        -webkit-line-clamp: 4;
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .cl-sm-hide {
+        display: none !important;
+    }
+    .header-container .menu-icon p{
+        width: 35px;
+        height: 25px;
+        border-top: 15px double #fff;
+        border-bottom: 5px solid #fff;
+    }
+    .pd-banner {
+        min-height: 380px;
+        height: 60vh;
+        max-height: 460px;
+    }
+    .pd-banner article.content .show {
+        padding-top: 120px;
+    }
+    .main .article-list {
+        padding: 0 20px;
+    }
+    .main .article-list article {
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
+    .category-main .article-list article {
+        width: calc(100% - 30px);
+        height: 410px;
+        margin: 0 15px 15px;
+    }
+    .single-main {
+        padding-top: 20px;
+    }
+    .single-main .single-article {
+        padding: 0 10px;
+    }
+    .single-main .single-article article {
+        padding: 10px;
+    }
+    .single-article article .header .title {
+        font-size: 22px;
+    }
+    .single-article article .header .time {
+        text-align: center;
+    }
+    .single-article article .content p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .codecolorer-container {
+        width: auto !important;
+    }
+    .single-article article .content h3 {
+        font-size: 18px;
+    }
+    .single-article article .content h4 {
+        font-size: 16px;
+    }
+    .single-article article .content blockquote {
+        margin: 0 5px;
+    }
+    .single-article article .content blockquote p {
+        margin: 0;
+        padding: 10px;
+    }
+}

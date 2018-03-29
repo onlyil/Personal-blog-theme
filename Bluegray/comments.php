@@ -1,5 +1,4 @@
 
-
 <!-- Comment Form -->
     <?php
     if ( !comments_open() ) :
@@ -26,10 +25,11 @@
                 <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="23" tabindex="3" />
             </li>
             <?php else : ?>
-            <li class="clearfix">
+            <li>
                 您已登录:<a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="退出登录">退出 »</a>
             </li>
             <?php endif; ?>
+            <?php include(TEMPLATEPATH . '/smiley.php'); ?>
             <li class="txt">
                 <textarea id="message comment" name="comment" tabindex="4" rows="3" cols="40"></textarea>
             </li>
@@ -68,7 +68,7 @@ function aurelius_comment($comment, $args, $depth) {
             <?php comment_reply_link(array_merge( $args, array('reply_text' => '回复','depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
         </div>
         <div class="comment_content" id="comment-<?php comment_ID(); ?>">
-            <div class="clearfix"> <?php printf(__('<cite class="author_name">%s</cite>'), get_comment_author_link()); ?>
+            <div class="commentator"> <?php printf(__('<cite class="author_name">%s</cite>'), get_comment_author_link()); ?>
                 <div class="comment-meta commentmetadata">发表于：<?php echo get_comment_time('Y-m-d H:i'); ?></div> <?php edit_comment_link('修改'); ?>
             </div>
             <div class="comment_text"> <?php if ($comment->comment_approved == '0') : ?> <em>你的评论正在审核，稍后会显示出来！</em><br /> <?php endif; ?> <?php comment_text(); ?> </div>

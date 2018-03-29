@@ -1,5 +1,5 @@
-    <!-- footer开始 -->
-    <footer>
+<!-- footer开始 -->
+    <footer class="cl-md-hide">
         <div class="wrap">
             <div class="clearfix">
                 <div class="footl fl">
@@ -24,5 +24,4 @@
         <img src="<?php bloginfo('template_url'); ?>/images/gotop.png" width="45" height="45" title="回到顶部">
     </div>
     <!-- footer结束 -->
-<script src="<?php bloginfo('template_url'); ?>/js/index.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/bannercanvas.js"></script>
+<script src="https://cdn.bootcss.com/require.js/2.3.5/require.min.js" defer async="true" data-main="<?php bloginfo('template_url'); ?>/js/index"></script>
